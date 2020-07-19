@@ -16,9 +16,9 @@ class App extends StatelessWidget {
         title: title,
         theme: ThemeData(
             brightness: Brightness.light,
-            primaryColor: Colors.blueGrey[900],
-            accentColor: Colors.deepPurple[100],
-            fontFamily: 'Poppins',
+            primaryColor: Styles.colorPrimary,
+            accentColor: Styles.colorSecondary,
+            fontFamily: Styles.fontNameDefault,
             textTheme: TextTheme(
               headline1: Styles.headerLarge,
               headline5: Styles.subheaderBold,

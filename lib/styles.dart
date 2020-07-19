@@ -15,6 +15,7 @@ class Styles {
   // Colors
   static final Color _colorBackground = Colors.grey[300];
   static final Color _colorPrimary = Colors.blueGrey[900];
+  static final Color _colorSecondary = Colors.deepPurple[100];
   static final Color _colorSecondaryDark = Color(0xffa094b7);
 
   static final headerLarge = TextStyle(
@@ -47,4 +48,7 @@ class Styles {
   );
 
   static Color get colorBackground => _colorBackground;
+  static Color get colorPrimary => _colorPrimary;
+  static Color get colorSecondary => _colorSecondary;
+  static String get fontNameDefault => _fontNameDefault;
 }
