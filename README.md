@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+![Output sample](https://github.com/level5esper/flutter_resume_app/raw/master/flutter_resume.gif)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
